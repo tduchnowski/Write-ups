@@ -3,6 +3,7 @@ Challenge: Substitution
 Description: We're given a source code with an encrypting algorithm which is running on a server. Upon connection to the server we can type a number as input and the server responds with an encryption of it.
 
 Example of server output:
+```
 Enter a number and it will be returned with our super secret synthetic substitution technique
 > 0
 >> 125
@@ -12,6 +13,7 @@ Enter a number and it will be returned with our super secret synthetic substitut
 >> 670
 > 3
 >> 39
+```
 
 Solution:
 We can see how the encryption behaves by looking closely at the source code and this part of it in particular:
