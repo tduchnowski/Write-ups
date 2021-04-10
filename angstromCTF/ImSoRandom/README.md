@@ -34,7 +34,7 @@ case.
 Using sympy library we can factorize each given number.
 If the number is something like this:
 ```
-2558734384060680 = 2<sup>3</sup>*3*5*7*4695653*648709
+2558734384060680 = 2*2*2*3*5*7*4695653*648709
 ```
 then it's bad. We can't deduce which combination of primes and their exponents
 gives us our two numbers. However, this:
@@ -44,7 +44,7 @@ gives us our two numbers. However, this:
 is good, because there is one 8-digit number which can't be combined with any
 other prime in this factorization, because other primes are bigger than 10 and
 hence the resulting number would be 9 or more digits so it can't possibly be our
-original number. Therefore, it is "our" number and the second one is made of the
+original number. Therefore, this 8-digit prime in the factorization above is our original number and the second one is made of the
 rest of those primes and their exponents.
 
 With this knowledge I created a script which makes connections and simply waits
