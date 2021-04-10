@@ -1,6 +1,6 @@
 Challenge: Home Rolled Crypto
 
-Description: Once again the give us a source for encryption algorithm. The
+Description: Once again they give us a source for encryption algorithm. The
 server gives us two options: either we can encrypt our own plaintext and they
 respond with an encryption, or they give us plaintext and we have to encrypt it.
 We have to match their encryption ten times in a row to get the flag.
