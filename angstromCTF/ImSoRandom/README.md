@@ -17,7 +17,7 @@ We have only three chances to read a number before guessing.
 Solution:
 The number generator first generates two 8-digit numbers and each time user
 makes a decision it uses this method:
-```
+```python
 def getNum(self):
     self.seed = int(str(self.seed**2).rjust(self.DIGITS*2, "0")[self.DIGITS//2:self.DIGITS + self.DIGITS//2])
     return self.seed
